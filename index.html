@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio FFSediq</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fa43fb2436.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo" alt="Logo" height="150" width="250">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+           <!----     <i class="fa-regular fa-circle-xmark"></i>---->
+            </ul>
+           <!----- <i class="fa-solid fa-bars"></i> --->
+        </nav>
+        <div class="header-text">
+            <p>Software Developer</p>
+            <h1>Hi, I'm <span>Farman</span><br>Sediq from the Netherlands</h1>
+        </div>
+    </div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg" alt="Profile Picture">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p class="sub-text"><i class="fa-solid fa-quote-left"></i>I am a bundle of energy, propelled by motivation, discipline, and an unyielding drive. Challenges fuel my passion, igniting a fire within me to push even further. The tougher the obstacle, the more invigorated I become. I thrive on learning, absorbing new information with lightning speed. Nothing is beyond my grasp; the concept of "impossible" simply doesn't exist in my vocabulary.<i class="fa-solid fa-quote-right"></i></p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <!--- Add more tabs later -->
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>HTML, CSS & JavaScript</li>
+                        <li><span>Soon</span><br></li>
+                        <li><span>Soon</span><br></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Soon</span><br></li>
+                        <li><span>Soon</span><br></li>
+                        <li><span>Soon</span><br></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>MBORijnland</span><br>Software Development 2023-2026</li>
+                        <li><span>Soon</span><br></li>
+                        <li><span>Soon</span><br></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title2">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Using the popular languages HTML, CSS & JavaScript</p>
+                <a href="https://blog.openclassrooms.com/en/2018/03/28/web-development-definition/#:~:text=Web%20development%20is%20the%20building,a%20variety%20of%20coding%20languages." target="_blank" rel="noopener noreferrer"">Learn More</a>
+            </div>
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>UI/UX Design</h2>
+                <p>Designing user interfaces the best and efficient way</p>
+                <a href="https://usfbootcamps.com/blog/ui-ux-design/what-does-a-designer-do/#:~:text=UI%2FUX%20designers%20are%20responsible,to%20use%2C%20or%20more%20fun." target="_blank" rel="noopener noreferrer">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title3">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/emergencyExit.jpg" class ='emergencyexit' alt="Work 1">
+                <div class="layer">
+                    <h3>MBORijnland Vluchtplan</h3>
+                    <p>This project is for my school used as an emergency App.<br> Through this website you can find the nearliest emergency exit</p>
+                    <a href="https://farmansediq.github.io/EmergencyExit/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.jpg" class="weather" alt="Work 2">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>This project is a weather app that shows you the weather in celsius.<br> Through this app it's also possible to check for rain & wind speed!</p>
+                    <a href="https://farmansediq.github.io/projectweather/"target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpg" alt="Work 3">
+                <div class="layer">
+                    <h3>COMING SOON!</h3>
+                    <p><br> </p><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/FarmanSediq" target="_blank" rel="noopener noreferrer" class="btn">See more Projects!</a>
+    </div>
+</div>
+<!--------------contact----- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title3 contact">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>ffsediq@hotmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+31684481173</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/farman-sediq-5745242b2/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/FarmanSediq"><i class="fa-brands fa-github"></i></a>
+
+
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download my CV!</a>
+            </div>
+            <div class="contact-right">
+                <form name ="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-regular fa-heart"></i>Copyright Farman Sediq</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname) {
+        for (var i = 0; i < tablinks.length; i++) {
+            tablinks[i].classList.remove("active-link");
+        }
+        for (var i = 0; i < tabcontents.length; i++) {
+            tabcontents[i].classList.remove("active-tab");
+        }
+        
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyE-1ku9HBkMhYwj-NPrG-wJZ8OaE1tbvVjGRCxS6xbDvjfApNoqlh8Em9z-BT_RB0tyQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
