@@ -506,4 +506,7 @@ nav .fa-solid{
         margin-left: 0;
         font-size: 40px;
     }
+    .layer a{
+        margin:30%;
+    }
 }
